@@ -9,8 +9,12 @@ app.use(function(req, res, next) {
   next();
 });
 
-app.get('/users', (req, res) => {
+app.get('/api/users', (req, res) => {
   res.json(users);
+});
+
+app.get('/api/session', (req, res) => {
+  res.end();
 });
  
 app.listen(3000);
