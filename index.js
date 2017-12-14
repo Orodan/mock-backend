@@ -9,12 +9,16 @@ app.use(function(req, res, next) {
   next();
 });
 
-app.get('/api/users', (req, res) => {
+app.get('/api/zeval/:sessionId/students', (req, res) => {
   res.json(users);
 });
 
-app.get('/api/session', (req, res) => {
+app.post('/api/zeval/training-sessions/:sessionId/evaluations', (req, res) => {
+  res.end();
+});
+
+app.get('/api/zeval/*', (req, res) => {
   res.end();
 });
  
-app.listen(3000);
+app.listen(8080);
