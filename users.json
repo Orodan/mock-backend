@@ -1,14 +1,17 @@
 [
   {
-    "id": 0,
-    "name": "Riri Duck"
+    "studentId": 0,
+    "firstName": "Riri",
+    "lastName": "Duck"
   },
   {
-    "id": 1,
-    "name": "Fifi Duck"
+    "studentId": 1,
+    "firstName": "Fifi",
+    "lastName": "Duck"
   },
   {
-    "id": 2,
-    "name": "Loulou Duck"
+    "studentId": 2,
+    "firstName": "Loulou",
+    "lastName": "Duck"
   }
 ]
